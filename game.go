@@ -10,7 +10,7 @@ func draw(vao uint32, window *glfw.Window, program uint32) {
 	gl.UseProgram(program)
 
 	gl.BindVertexArray(vao)
-	gl.DrawArrays(gl.TRIANGLES, 0, int32(len(triangle)/3))
+	gl.DrawArrays(gl.TRIANGLES, 0, int32(len(shape)/3))
 
 	glfw.PollEvents()
 	window.SwapBuffers()

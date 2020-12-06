@@ -14,7 +14,7 @@ func main() {
 	defer glfw.Terminate()
 	program := initOpenGL()
 
-	vao := makeVao(triangle)
+	vao := makeVao(shape)
 	for !window.ShouldClose() {
 		draw(vao, window, program)
 	}
