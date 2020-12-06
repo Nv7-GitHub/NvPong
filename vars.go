@@ -1,6 +1,6 @@
 package main
 
 const (
-	width  = 500
+	width  = 1000
 	height = 500
 )
